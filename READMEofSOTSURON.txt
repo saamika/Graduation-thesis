@@ -13,3 +13,4 @@ Setting.java：シナリオファイルを設定
 DTNHost.java,Report.java：
   static変数 addressFromHigh と address FromAdjを書き換え
     →本来であれば、両方の変数を同一化し、かつ、シナリオファイルから設定可能にすべき。
+　　　編集はそのうち。
