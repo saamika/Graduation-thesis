@@ -1,0 +1,17 @@
+# This scenario runs Random Waypoint movement model with Epidemic routing
+# This test can be run with command: one rwp_epidemic.txt
+
+Scenario.name = RwpEpidemic
+
+# Use just one big host group of 200 nodes
+Scenario.nrofHostGroups = 1
+Group.nrofHosts = 200
+
+# All nodes should use the Epidemic routing module and RWP movement module
+Group.router = EpidemicRouter
+Group.movementModel = RandomWaypoint
+
+# Use longer radio range to make more paths visible
+Group.transmitRange = 250
+
+# Other settings are defined by the current default_settings.txt

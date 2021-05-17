@@ -1,0 +1,20 @@
+Message stats for scenario RBDR_with_adjusting_node1
+sim_time: 43200.1000
+created: 1469
+started: 96167
+relayed: 73035
+aborted: 23125
+dropped: 61053
+removed: 0
+delivered: 1000
+delivery_prob: 0.6807
+response_prob: 0.0000
+overhead_ratio: 72.0350
+latency_avg: 7779.8081
+latency_med: 7308.7000
+hopcount_avg: 2.6700
+hopcount_med: 2
+buffertime_avg: 7471.7133
+buffertime_med: 6754.7000
+rtt_avg: NaN
+rtt_med: NaN
